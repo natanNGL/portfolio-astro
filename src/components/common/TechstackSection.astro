@@ -1,0 +1,67 @@
+---
+import Section from "./../ui/Section.astro";
+import { AiOutlineDotNet, AiOutlineDocker } from "react-icons/ai";
+import { TbBrandCSharp, TbFileTypeSql, TbApi } from "react-icons/tb";
+import { DiMsqlServer, DiHtml5 } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiNginx, SiTypescript, SiRedux, SiAstro, SiTailwindcss, SiMui, SiJira, SiBitbucket } from "react-icons/si";
+import { MdOutlineDesignServices, MdDoubleArrow } from "react-icons/md";
+import { GrServices } from "react-icons/gr";
+import { IoLogoJavascript, IoLogoCss3, IoLogoReact } from "react-icons/io5";
+import { FcLinux } from "react-icons/fc";
+import { FaGitAlt } from "react-icons/fa";
+import { ZustandIcon } from "./../ui/IconEmbed";
+import type { IconType } from "react-icons";
+
+const { lang } = Astro.props as LangProps;
+
+type IconProps = {
+    label: string;
+    icon: IconType;
+    className: string;
+};
+
+const icons: Array<IconProps> = [
+    { label: ".NET", icon: AiOutlineDotNet, className: "text-purple-500" },
+    { label: "C#", icon: TbBrandCSharp, className: "text-yellow-500" },
+    { label: "xUnit", icon: MdOutlineDesignServices, className: "text-putih" },
+    { label: "Docker", icon: AiOutlineDocker, className: "text-blue-500" },
+    { label: "SQL Server", icon: DiMsqlServer, className: "text-red-500" },
+    { label: "Stored Procedure", icon: TbFileTypeSql, className: "text-yellow-500" },
+    { label: "Rest API", icon: TbApi, className: "text-red-500" },
+    { label: "Micro Services", icon: GrServices, className: "text-yellow-500" },
+    { label: "Postgres", icon: BiLogoPostgresql, className: "text-blue-500" },
+    { label: "Git", icon: FaGitAlt, className: "text-red-500" },
+    { label: "Nginx", icon: SiNginx, className: "text-green-500" },
+    { label: "Linux", icon: FcLinux, className: "" },
+    { label: "Jira", icon: SiJira, className: "text-blue-500" },
+    { label: "Bitbucket", icon: SiBitbucket, className: "text-blue-500" },
+    { label: "Javascript", icon: IoLogoJavascript, className: "text-yellow-400" },
+    { label: "Typescript", icon: SiTypescript, className: "text-blue-500" },
+    { label: "HTML", icon: DiHtml5, className: "text-orange-500" },
+    { label: "CSS", icon: IoLogoCss3, className: "text-blue-500" },
+    { label: "React", icon: IoLogoReact, className: "text-cyan-500" },
+    { label: "Redux", icon: SiRedux, className: "text-purple-500" },
+    { label: "AstroJS", icon: SiAstro, className: "text-putih" },
+    { label: "Zustand", icon: ZustandIcon, className: "text-putih" },
+    { label: "Tailwind", icon: SiTailwindcss, className: "text-cyan-600" },
+    { label: "Material UI", icon: SiMui, className: "text-blue-400" },
+    { label: "Others", icon: MdDoubleArrow, className: "text-putih" },
+];
+---
+
+<Section icon="lucide:clipboard-list" title={lang == "id" ? "Keahlian" : "Expertise"}>
+    <p class="text-putih font-semibold mb-4">
+        {lang === "id" ? "Teknologi & Tools yang biasa Saya Gunakan" : "Technologies & Tools I Regularly Use"}
+    </p>
+    <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 sm:gap-5">
+        {
+            icons.map((Val) => (
+                <div class="flex flex-col justify-between items-center border border-gray-700 py-4 rounded-md gap-2">
+                    <Val.icon className={Val.className} size={"50%"} />
+                    <p class="text-putih text-center text-wrap text-sm">{Val.label}</p>
+                </div>
+            ))
+        }
+    </div>
+</Section>

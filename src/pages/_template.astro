@@ -1,0 +1,20 @@
+---
+import AboutSection from "../components/common/AboutSection.astro";
+import Card from "../components/common/Card.astro";
+import ContactSection from "../components/common/ContactSection.astro";
+import WorkExperiencesSection from "../components/common/WorkExperiencesSection";
+import TechstackSection from "../components/common/TechstackSection.astro";
+import Layout from "../layouts/Layout.astro";
+
+const { lang } = Astro.props;
+---
+
+<Layout lang={lang}>
+    <Card lang={lang} />
+    <main class="sm:flex-4 flex flex-col gap-2 sm:h-full sm:overflow-x-hidden sm:overflow-y-auto no-scrollbar rounded-xl">
+        <AboutSection lang={lang} />
+        <WorkExperiencesSection lang={lang} />
+        <ContactSection />
+        <TechstackSection lang={lang} />
+    </main>
+</Layout>

@@ -1,0 +1,17 @@
+{
+    "title": {
+        "id": "Tools & Teknologi",
+        "en": "Tools & Technology"
+    },
+
+    "description": {
+        "id": "",
+        "en": ""
+    },
+
+    "icons": {
+        "backend": ["AiOutlineDotNet", "AiOutlineDotNet", "AiOutlineDotNet"],
+        "frontend": [],
+        "devops": []
+    }
+}

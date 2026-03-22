@@ -1,0 +1,22 @@
+[
+    {
+        "type":"wa",
+        "link": "https://wa.me/6285157715228",
+        "label": "Whatsapp",
+        "value": "+6285157715228"
+
+    },
+    {
+        "type":"email",
+        "link": "mailto:roy.natanaelngl02@gmail.com",
+        "label": "Email",
+        "value": "roy.natanaelngl02@gmail.com"
+    },
+    {
+        "type":"linkedin",
+        "link": "https://www.linkedin.com/in/roy-natanael-nainggolan-aa54843b9",
+        "label": "Linkedin",
+        "value": "linked in"
+
+    }
+]

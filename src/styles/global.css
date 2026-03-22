@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-latar: #090c10;
+    --color-section: #121920;
+    --color-hijau: #00b87b;
+    --color-putih: #eeeeee;
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}   
+  
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE & Edge */
+    scrollbar-width: none;     /* Firefox */
+}

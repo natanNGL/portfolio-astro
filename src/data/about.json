@@ -1,0 +1,22 @@
+{
+    "title": {
+        "en": "About Me",
+        "id": "Tentang Saya"
+    },
+
+    "en": [
+       "I'm a Fullstack Developer with over 6 years of experience building enterprise web applications that directly support business operations. I've worked across industries such as insurance, telecommunications, and finance, focusing on building stable, scalable, and maintainable systems.",
+
+       "My expertise is centered on backend development using .NET, along with strong experience in SQL Server, including performance optimization and complex business logic implementation. On the frontend, I use React and TypeScript to build modern and responsive user interfaces.",
+
+       "I'm passionate about solving technical challenges, improving system performance, and delivering solutions that create real business impact."
+    ],
+
+    "id": [
+       "Saya adalah Fullstack Developer dengan lebih dari 6 tahun pengalaman dalam membangun aplikasi web enterprise yang digunakan secara langsung dalam operasional bisnis. Saya telah bekerja di berbagai industri seperti asuransi, telekomunikasi, dan keuangan, dengan fokus pada pengembangan sistem yang stabil, scalable, dan mudah dipelihara.",
+
+       "Saya memiliki spesialisasi di backend menggunakan .NET, serta pengalaman kuat dalam pengelolaan database menggunakan SQL Server, termasuk optimasi performa dan implementasi logika bisnis yang kompleks. Di sisi frontend, saya menggunakan React dan TypeScript untuk membangun antarmuka yang modern dan responsif.",
+
+       "Saya tertarik pada tantangan teknis, peningkatan performa sistem, dan membangun solusi yang memberikan dampak nyata bagi bisnis."
+    ]
+}

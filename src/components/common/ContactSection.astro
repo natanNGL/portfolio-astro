@@ -1,0 +1,27 @@
+---
+import Section from "./../ui/Section.astro";
+import { IoMdMail, IoLogoLinkedin, IoLogoWhatsapp, IoMdHome } from "react-icons/io";
+import ContactData from "./../../data/contact.json";
+---
+
+<Section icon="lucide:phone" title="Contact">
+    <div class="grid grid-cols-2 gap-2">
+        {
+            ContactData.map(
+                (val) =>
+                    val.type != "address" && (
+                        <a href={val.link} class="w-full border border-gray-700 p-4 rounded-md flex flex-col items-center justify-between">
+                            {val.type === "wa" ? (
+                                <IoLogoWhatsapp className="text-green-600 w-8 h-8 " />
+                            ) : val.type === "email" ? (
+                                <IoMdMail className="text-amber-400 w-8 h-8" />
+                            ) : val.type === "linkedin" ? (
+                                <IoLogoLinkedin className="text-blue-500 w-8 h-8" />
+                            ) : null}
+                            <p class="text-putih break-all text-center">{val.value}</p>
+                        </a>
+                    ),
+            )
+        }
+    </div>
+</Section>

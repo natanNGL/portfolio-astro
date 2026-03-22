@@ -1,0 +1,41 @@
+---
+const data = {
+    role: "Fullstack Developer",
+    company: "PT Asuransi Astra Buana",
+    duration: "2022 - Present",
+    desc: "Developing digital platforms that support healthcare services for insurance customers.",
+    is: "Key systems developed:",
+    details: [
+        { title: "Wellness Platform", desc: "A platform designed to help users monitor and manage their health history." },
+        { title: "E-Appointment System", desc: "A system that enables users to schedule medical appointments with partner hospitals." },
+        {
+            title: "E-Consultation Platform",
+            desc: "An online consultation platform allowing users to communicate with doctors through live chat.",
+        },
+    ],
+};
+---
+
+<div class="flex flex-col gap-5 border border-gray-700 p-2 rounded-md w-full">
+    <div>
+        <h3 class="text-lg font-bold text-putih">{data.role}</h3>
+        <p class="text-xs font-medium text-putih">{data.company}</p>
+        <p class="text-xs font-medium text-putih">{data.duration}</p>
+    </div>
+
+    <div>
+        <p class="text-putih text-sm">{data.desc}</p>
+        <p class="text-putih text-sm mb-3">{data.is}</p>
+
+        <div class="pl-3 flex flex-col gap-3">
+            {
+                data.details.map((val) => (
+                    <div>
+                        <p class="text-putih text-sm font-bold">{val.title}</p>
+                        <p class="text-putih text-sm">{val.desc}</p>
+                    </div>
+                ))
+            }
+        </div>
+    </div>
+</div>

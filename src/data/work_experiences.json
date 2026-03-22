@@ -1,0 +1,135 @@
+[
+    {
+        "company": "PT. Asuransi Astra Buana", 
+        "role": "Fullstack Developer", 
+        "duration": {
+            "en": "2022 - Present",
+            "id": "2022 - Sekarang"
+        },
+        "projects": [
+              {"name": "E-Appointment Medcare", "description": {
+                "id": "E-Appointment adalah fitur reservasi dokter tehadap rumah sakit rekanan secara online, tanpa pasien harus ambil antrian ke rumah sakit secara langsung. Pembayaran dapat menggunakan limit/cashless maupun bayar ditempat",
+                "en": "E-Appointment is a feature for booking doctor appointments at partner hospitals online, without patients needing to take a queue at the hospital in person. Payments can be made via limit/cashless or paid on-site."
+            }, "jobdesc": {
+                "id": ["Membuat tampilan pengguna / Frontend berbasis Webview ReactJS via aplikasi mobile Medcare", "Mengintegrasikan API internal ke API rumah sakit rekanan untuk melakukan booking, check schedule & check slot", "Mengintegrasikan pembayaran ke Payment Gateway Midtrans", "Membuat scheduler harian synch dokter berbasis .NET", "Menulis beberapa script SQL & Stored Procedure", "Membuat Unit Testing menggunakan XUnit", "Support tim QC ketika ada bug"],
+                "en": [
+                    "Developing user/frontend views using ReactJS Webview via the Medcare mobile app",
+                    "Integrating internal APIs with partner hospital APIs for booking, schedule checking, and slot verification",
+                    "Integrating payments with the Midtrans Payment Gateway",
+                    "Creating a daily doctor synchronization scheduler using .NET",
+                    "Writing SQL scripts and stored procedures",
+                    "Creating unit tests using XUnit",
+                    "Supporting the QC team when bugs are found"
+                ]
+            }, "tech_stack": {
+                "frontend": ["ReactJS Typescript", "Redux", "Material UI"],
+                "backend": [".NET", "MS. SQL Server", "XUnit", "Midtrans"]
+            }},
+
+            {"name": "Wellness Medcare", "description": {
+                "id": "Wellness merupakan fitur untuk monitoring kesehatan seperti tekanan darah, gula darah, jumlah langkah harian dan lainnya.",
+                "en": "Wellness is a feature for monitoring health metrics such as blood pressure, blood sugar, daily step count, and others."
+            }, "jobdesc": {
+                "id": ["Membuat tampilan summary kesehatan pengguna menggunakan ReactJS Webview", "Membuat API yang akan di pakai mobile native untuk simpan data harian", "Menulis beberapa script SQL & Stored Procedure", "Membuat Unit Testing menggunakan XUnit", "Support tim QC ketika ketika ada bug"],
+                "en": [
+                    "Creating user health summary views using ReactJS Webview",
+                    "Developing APIs for mobile native apps to store daily data",
+                    "Writing SQL scripts and stored procedures",
+                    "Creating unit tests using XUnit",
+                    "Supporting the QC team when bugs are found"
+                ]
+            }, "tech_stack": {
+                "frontend": ["ReactJS Typescript", "Redux", "Material UI"],
+                "backend": [".NET", "MS. SQL Server", "XUnit"]
+            }},
+
+            {"name": "E-Consultation Medcare", "description": {
+                "id": "E-Consultation merupakan fitur konsultasi dokter via livechat dan akan mendapatkan resep obat / rujukan ke RS rekanan.",
+                "en": "E-Consultation is a feature for consulting with doctors via live chat, where patients can receive prescriptions or referrals to partner hospitals."
+            }, "jobdesc": {
+                "id": ["Membuat tampilan antarmuka menggunakan ReactJS Webview", "Mengintegrasikan Webview ke livechat platform Qiscus", "Mengintegrasikan pembayaran ke Payment Gateway Midtrans", "Menulis beberapa script SQL & Stored Procedure", "Membuat Unit Testing menggunakan XUnit", "Support tim QC ketika ketika ada bug"],
+                "en": [
+                    "Creating user interface using ReactJS Webview",
+                    "Integrating Webview with the Qiscus live chat platform",
+                    "Integrating payments with the Midtrans Payment Gateway",
+                    "Writing SQL scripts and stored procedures",
+                    "Creating unit tests using XUnit",
+                    "Supporting the QC team when bugs are found"
+                ]
+            }, "tech_stack": {
+                "frontend": ["ReactJS Typescript", "Redux", "Material UI", "Qiscus"],
+                "backend": [".NET", "MS. SQL Server", "XUnit", "Midtrans"]
+            }},
+
+            {"name": "Revamp Medcare X MyGarda", "description": {
+                "id": "Mengintegrasikan semua fitur Medcare seperti e-appointment, e-consultation & wellness ke aplikasi MyGarda.",
+                "en": "Integrating all Medcare features such as E-Appointment, E-Consultation, and Wellness into the MyGarda application."
+            }, "jobdesc": {
+                "id": ["UI/UX Redesign sesuai tema MyGarda", "Melakukan Optimasi performa", "Membuat Project API baru untuk transisi dari API lama ke baru", "Penyesuaian beberapa scheduler, inbox & email sender sesuai akun MyGarda"],
+                "en": [
+                    "UI/UX redesign according to the MyGarda theme",
+                    "Performing performance optimization",
+                    "Creating a new API project for transitioning from the old API to the new one",
+                    "Adjusting several schedulers, inbox, and email sender according to MyGarda accounts"
+                ]
+            }, "tech_stack": {
+                "frontend": ["ReactJS Typescript", "Zustand", "Material UI"],
+                "backend": [".NET", "MS. SQL Server", "XUnit", "Midtrans"]
+            }}
+        ]
+    },
+    
+    {
+        "type": "febe",
+        "company": "PT. FEBE TEKNOLOGI DIGITAL",
+        "role": "Backend Developer",
+        "duration": {
+            "id": "2021 - 2022",
+            "en": "2021 - 2022"
+        },
+        "projects": [
+            {"name": "Site Lease Agreement", "description": {
+                "en": "An application solution that allows control and monitoring of tower leases for all respective customers/tenants to maximize revenue. This solution helps Protelindo as a tower industry player to manage and administer their leasing requirements e.g. master lease agreement, grandfathered management, site lease agreement management and administration, pricing calculator, etc.",
+                "id": "Aplikasi yang memungkinkan pengendalian dan pemantauan sewa menara untuk semua pelanggan/penyewa terkait guna memaksimalkan pendapatan. Solusi ini membantu Protelindo sebagai pelaku industri menara dalam mengelola dan mengadministrasikan kebutuhan penyewaan mereka, seperti perjanjian sewa induk, pengelolaan grandfathered, manajemen dan administrasi perjanjian sewa lokasi, kalkulator harga, dan lain-lain."
+            }, "jobdesc": {
+                "id": ["Membuat API menggunakan framework Serenity.is berbasis .NET untuk menghitung harga sewa & biaya pengelolaan grandfathered tower telekomunikasi", "Membuat Unit Testing menggunakan XUnit", "Support tim QC ketika melakukan testing", "Memperbaiki BUG yang ditemukan"],
+                "en": ["Develop APIs using the Serenity.is framework based on .NET to calculate lease pricing and grandfathered management fees for telecommunication towers", "Develop unit tests using XUnit", "Support the QC team during testing activities", "Fix bugs identified during testing and development"]
+            }, "tech_stack": {
+                "frontend": [],
+                "backend": ["Serenity.is", ".NET", "MS. SQL Server", "XUnit"]
+            }}
+        ]
+    },
+    {
+        "type": "celerates",
+        "company": "PT. Mitra Talenta Grup",
+        "role": "Enterprise Application Development",
+        "duration": {
+            "id": "2019 - 2021",
+            "en": "2019 - 2021"
+        },
+        "projects": [
+            {"name": "Lending Management System - CROWDE", "description": {
+            "en": "As a Frontend Developer, developed a dashboard for managing a lending system between lenders and borrowers at PT. Crowde Membangun Bangsa, including transaction monitoring, user data management, and real-time loan status tracking.",
+            "id": "Sebagai Frontend Developer, mengembangkan dashboard untuk mengelola sistem pinjaman antara pemberi dan penerima pinjaman di PT. Crowde Membangun Bangsa, mencakup monitoring transaksi, manajemen data pengguna, serta pelacakan status pinjaman secara real-time."
+            }, "jobdesc": {
+                "id": ["Membuat antarmuka menggunakan ReactJS & Ant Design", "Melakukan unit testing menggunakan JEST", "Mendukung Tim QC ketika melakukan testing", "memperbaiki temuan bug"],
+                "en": ["Developing user interfaces using ReactJS & Ant Design", "Performing unit testing using Jest","Supporting the QC team during testing", "Fixing identified bugs"]
+            }, "tech_stack": {
+                "frontend": ["ReactJS", "Redux", "Ant Design", "JEST", "PWA"],
+                "backend": []
+            }},
+
+            {"name": "Internal Attendance Manager", "description": {
+                "en": "As a Backend Developer, developed the backend system for an internal attendance application at PT. Mitra Talenta Grup, including employee database management, attendance data storage and validation, API integration with the frontend, and automated attendance report generation.",
+                "id": "Sebagai Backend Developer, mengembangkan sistem backend untuk aplikasi absensi internal di PT. Mitra Talenta Grup, termasuk manajemen database karyawan, penyimpanan dan validasi data kehadiran, API untuk integrasi dengan frontend, serta pembuatan laporan absensi otomatis."
+            }, "jobdesc": {
+                "id": ["Membuat database design", "Membuat API untuk Frontend", "Membuat Scheduler / crontjob", "memperbaiki temuan bug", "support tim QC saat melakukan test"],
+                "en": ["Designing the database", "Creating APIs for the frontend","Creating schedulers / cron jobs", "Fixing identified bugs", "Supporting the QC team during testing"]
+            }, "tech_stack": {
+                "frontend": [],
+                "backend": ["ExpressJS", "MySQL", "Cronjob"]
+            }}
+        ]
+    }
+]

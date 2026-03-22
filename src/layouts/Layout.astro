@@ -1,23 +1,18 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import "../styles/global.css";
+const { lang = "en" } = Astro.props as LangProps;
+---
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<!doctype html>
+<html lang={lang}>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Roy Natanael Nainggolan</title>
+    </head>
+    <body class="h-screen bg-latar overflow-x-hidden overflow-y-auto">
+        <div class="flex h-full flex-col sm:flex-row gap-2 p-2 sm:max-w-[80%] mx-auto">
+            <slot />
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+---
+import Section from "./../ui/Section.astro";
+import AboutData from "./../../data/about.json";
+
+const { lang } = Astro.props as LangProps;
+---
+
+<Section icon="lucide:circle-user-round" title={AboutData.title[lang]}>
+    <div class="flex flex-col gap-2">
+        {AboutData[lang]?.map((item) => <p class="text-putih text-justify">{item}</p>)}
+    </div>
+</Section>
